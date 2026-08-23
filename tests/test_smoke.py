@@ -1,5 +1,5 @@
 from dailies.cli import main
 
 
-def test_trivial() -> None:
+def test_entrypoint_is_callable() -> None:
     assert callable(main)
